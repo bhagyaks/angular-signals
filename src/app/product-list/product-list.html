@@ -1,0 +1,12 @@
+<p>product-list works!</p>
+<input type="text" (input)="changeFilter($event)" />
+{{ filterName() }}
+<table>
+  @for (product of filteredProduct(); track product) {
+    <tr>
+      <td>{{ product.id }}</td>
+      <td>{{ product.name }}</td>
+      <td>{{ product.price }}</td>
+    </tr>
+  }
+</table>
