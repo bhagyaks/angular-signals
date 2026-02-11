@@ -1,6 +1,23 @@
 # AngularSignals
+A simple Angular application demonstrating the fundamentals of Angular Signals — the reactive primitive built into modern Angular for fine-grained reactivity and state management.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
+
+## About
+
+Angular Signals provide a more efficient reactivity system by letting Angular precisely track where state is used in the UI and only update the affected parts when that state changes. This model is lightweight and highly performant compared to broad change-detection cycles.
+
+This repository contains a sample Angular application where you can explore and implement:
+
+Basic Angular Signals (signal)
+
+Derived state with computed
+
+Reactive updates with effect
+
+Integrating Signals with components and services
+
+(Add actual feature descriptions once you’ve added signal-specific code to the app.)
 
 ## Development server
 
